@@ -5,8 +5,8 @@
     ;Escribir cuatro iniciales  de su nombre completo empezando  en la direccion de memoria 200h
    
     mov     AL, "S"
-    mov     CL, "D"
-    mov     DL, "F"
+    mov     BL, "D"
+    mov     CL, "F"
     mov     DL, "E"
     
     mov     byte [200h], AL
